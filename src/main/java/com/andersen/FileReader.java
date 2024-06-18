@@ -10,10 +10,8 @@ import java.util.Scanner;
 
 public class FileReader {
 
-    private Scanner scanner;
-
     public ArrayList<BusTicket> parseData(String filePath) throws FileNotFoundException {
-        scanner = new Scanner(new File(filePath));
+        Scanner scanner = new Scanner(new File(filePath));
         ArrayList<BusTicket> arrayList = new ArrayList<>();
         while(scanner.hasNextLine()){
             String busTicketJson;
