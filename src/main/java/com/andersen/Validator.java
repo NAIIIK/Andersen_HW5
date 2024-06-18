@@ -5,9 +5,9 @@ import java.time.format.DateTimeParseException;
 import java.util.*;
 
 public class Validator {
-    private static final String  START_DATE_VIOLATION = "start date";
-    private static final String  PRICE_VIOLATION = "price";
-    private static final String  TYPE_VIOLATION = "ticket type";
+    private static final String START_DATE_VIOLATION = "start date";
+    private static final String PRICE_VIOLATION = "price";
+    private static final String TYPE_VIOLATION = "ticket type";
 
     private Map<String, Integer> violations = new HashMap<>();
 
